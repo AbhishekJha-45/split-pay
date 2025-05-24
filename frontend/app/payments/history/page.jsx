@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { BASE_URL } from "@/constants";
 import axios from "axios";
 import Cookies from "js-cookie";
-import PaymentCard from "@/components/card/PaymentCard";
+import PaymentCard from "../../../components/Card/PaymentCard";
 
 export default function Payments() {
   const [payments, setPayments] = useState([]);
